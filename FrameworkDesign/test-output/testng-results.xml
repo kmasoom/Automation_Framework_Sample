@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50270" started-at="2020-01-27T19:13:45Z" finished-at="2020-01-27T19:14:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50270" started-at="2020-01-27T19:13:45Z" finished-at="2020-01-27T19:14:36Z">
+      <class name="com.loginTest.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="19" started-at="2020-01-27T19:13:46Z" finished-at="2020-01-27T19:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2570" started-at="2020-01-27T19:13:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-01-27T19:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2020-01-27T19:13:48Z" finished-at="2020-01-27T19:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.loginTest.LoginTest.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="setUp" is-config="true" duration-ms="43889" started-at="2020-01-27T19:13:48Z" finished-at="2020-01-27T19:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="login" duration-ms="2769" started-at="2020-01-27T19:14:32Z" finished-at="2020-01-27T19:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="tearDown" is-config="true" duration-ms="947" started-at="2020-01-27T19:14:35Z" finished-at="2020-01-27T19:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-01-27T19:14:36Z" finished-at="2020-01-27T19:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.loginTest.LoginTest.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.loginTest.LoginTest@3c9754d8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-01-27T19:14:36Z" finished-at="2020-01-27T19:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.loginTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
